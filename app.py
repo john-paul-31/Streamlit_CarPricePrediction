@@ -32,10 +32,10 @@ st.set_page_config("layout = 'wide") #Setting the layout of the webpage
 
 st.title("Car Price Prediction") #Setting the Title for the webpage
 
-from PIL import Image
-image = Image.open('LaFerrari.jpg')
+#from PIL import Image
+#image = Image.open('LaFerrari.jpg')
 
-st.image(image, caption='LaFerrari Spider')
+#st.image(image, caption='LaFerrari Spider')
 
 col1, col2 = st.columns(2) #Setting the number of columns in the layout
 
